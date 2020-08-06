@@ -11,3 +11,4 @@ IMDB - https://www.imdb.com/interfaces/
 
 Boxofficemojo - No dataset yet. A scraper might be required. Here is a starting point - https://medium.com/@kunsitu/analysing-weekend-box-office-data-from-box-office-mojo-by-using-python-part-1-86dcabac9164
 
+This paper can be cited as inpsiration for this analysis - https://arxiv.org/pdf/1506.05382v2.pdf
