@@ -12,3 +12,9 @@ IMDB - https://www.imdb.com/interfaces/
 Boxofficemojo - No dataset yet. A scraper might be required. Here is a starting point - https://medium.com/@kunsitu/analysing-weekend-box-office-data-from-box-office-mojo-by-using-python-part-1-86dcabac9164
 
 This paper can be cited as inpsiration for this analysis - https://arxiv.org/pdf/1506.05382v2.pdf
+
+---------------------------------------------Key Resources--------------------------------------------------------------
+
+Let us try and use this workflow as much as possible - https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/
+
+Atlassian work flow - https://www.atlassian.com/git/tutorials/comparing-workflows
