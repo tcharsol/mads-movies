@@ -1,6 +1,8 @@
 # mads-movies
-Key Resources
+Explore the primary factors impacting a movie's profitability
 ------------------------------------------------------------------------------------------------------------------------
+
+Key Resources:
 
 Let us try and use this workflow as much as possible - https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/
 
