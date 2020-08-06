@@ -1,5 +1,19 @@
 # mads-movies
 Explore the primary factors impacting a movie's profitability
+------------------------------------------------------------------------------------------------------------------------
+
+Key Resources:
+
+Let us try and use this workflow as much as possible - https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/
+
+Atlassian work flow - https://www.atlassian.com/git/tutorials/comparing-workflows
+
+Consider adding ethics checklist like this one - https://deon.drivendata.org/
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+Explore the primary factors impacting a movie's profitability
 
 Use this repository to explore the relationship between several key factors (director, writer, cast, crew etc.) and a movie's profitability.
 
@@ -13,8 +27,4 @@ Boxofficemojo - No dataset yet. A scraper might be required. Here is a starting 
 
 This paper can be cited as inpsiration for this analysis - https://arxiv.org/pdf/1506.05382v2.pdf
 
----------------------------------------------Key Resources--------------------------------------------------------------
 
-Let us try and use this workflow as much as possible - https://jakevdp.github.io/blog/2017/03/03/reproducible-data-analysis-in-jupyter/
-
-Atlassian work flow - https://www.atlassian.com/git/tutorials/comparing-workflows
