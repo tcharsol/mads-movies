@@ -28,9 +28,9 @@ Boxofficemojo - No dataset yet. A scraper might be required. Here is a starting 
 This paper can be cited as inpsiration for this analysis - https://arxiv.org/pdf/1506.05382v2.pdf
 
 ## Data Processing Steps
-IMDd
+### IMDd
 The following files should be executed / accessed in the following sequence:
-1. process_imdb_data.py
+1. process_imdb_data.py - this step creates an intermediate data set (the location should be set because the steps that follow use this file)
 2. machine-learning-data-exploration.ipynb
 3. machine-learning-regression-ipynb
 4. machine-learning-classification.ipynb
