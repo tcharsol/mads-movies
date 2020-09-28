@@ -10,7 +10,18 @@ pd.set_option('display.width', 1000)
 
 def read_imdb_gz_data(directory, level_1, level_2, show=False, no_records_to_show=5):
     """
+    Reads in a gzip file (tsv.gz) from the IMDB database
 
+    Parameters:
+        directory (str):
+        level_1 (str): specifies which source file is to be read in e.g. "title"
+        level_2 (str): specifies which source file is to be read in e.g. "basics"
+        show (boolean): fi True a sample of the read in data is displayed
+        no_records_to_show (int): controls the number of records of the data to display
+
+    Returns:
+        data_df (pandas.DataFrame): contains the source data
+        cols (list): contains the DataFrame columns
 
     """
     with gzip.open(os.path.join(directory, level_1 + "." + level_2 + ".tsv.gz")) as file:
@@ -65,6 +76,16 @@ def pivot_movie_data(input_df, keep_cols, index_col, pivot_cols, prefix=None):
 
 
 def get_non_normalized_movie_data_df(imdb_ids_list=["tt1630029", "tt0499549"], no_records_to_display=0):
+    """
+    Takes data from IMDB gz files and combines them.
+
+    Parameters:
+        imdb_ids_list (list): A list of specific IMDB I.D.s to return
+        no_records_to_display (int): Limits the amount of records to display
+
+    Returns:
+        non_normalized_df (pd.DataFrame): joined data (non-normalized) - each record can appear in more than one row
+    """
 
     title_basics_data_df, title_basics_cols = read_imdb_gz_data(directory="../../Data/IMDB/", level_1="title",
                                                                 level_2="basics",
